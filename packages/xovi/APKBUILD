@@ -25,9 +25,9 @@ subpackages="
 _release="v16-14112025"
 
 source="
-extensions-aarch64.zip::https://github.com/asivery/rm-xovi-extensions/releases/download/$_release/extensions-aarch64.zip
-extensions-armv7.zip::https://github.com/asivery/rm-xovi-extensions/releases/download/$_release/extensions-arm32-testing.zip
-LICENSE::https://raw.githubusercontent.com/asivery/rm-xovi-extensions/main/LICENSE
+https://github.com/asivery/rm-xovi-extensions/releases/download/$_release/extensions-aarch64.zip
+https://github.com/asivery/rm-xovi-extensions/releases/download/$_release/extensions-arm32-testing.zip
+https://raw.githubusercontent.com/asivery/rm-xovi-extensions/main/LICENSE
 "
 
 sha512sums="

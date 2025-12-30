@@ -10,8 +10,8 @@ arch="noarch"
 license="MIT"
 depends="xovi-qt-resource-rebuilder remarkable-os>=3.24"
 source="
-hidePageLabelsInFullscreen.qmd::https://raw.githubusercontent.com/rmitchellscott/xovi-qmd-extensions/main/3.24/hidePageLabelsInFullscreen.qmd
-LICENSE::https://raw.githubusercontent.com/rmitchellscott/xovi-qmd-extensions/main/LICENSE
+https://raw.githubusercontent.com/rmitchellscott/xovi-qmd-extensions/main/3.24/hidePageLabelsInFullscreen.qmd
+https://raw.githubusercontent.com/rmitchellscott/xovi-qmd-extensions/main/LICENSE
 "
 options="!check !fhs"
 sha512sums="
