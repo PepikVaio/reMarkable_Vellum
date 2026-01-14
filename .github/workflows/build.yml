@@ -170,8 +170,8 @@ jobs:
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: |
           for arch in aarch64 armv7; do
-            if [ -d "dist/$arch" ] && ls dist/$arch/*.apk >/dev/null 2>&1; then
-              aws s3 cp dist/$arch/ s3://packages.vellum.delivery/$arch/ --recursive --exclude "APKINDEX.tar.gz"
+            if [ -d "dist/noarch" ] && ls dist/noarch/*.apk >/dev/null 2>&1; then
+              aws s3 cp dist/noarch/ s3://packages.vellum.delivery/$arch/ --recursive --exclude "APKINDEX.tar.gz"
             fi
           done
 
