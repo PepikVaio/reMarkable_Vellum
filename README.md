@@ -170,7 +170,7 @@ If your package installs files outside `/home/root/` (e.g., systemd units to `/e
 > [!IMPORTANT]
 > **System files require careful handling:**
 > - Paper Pro family root filesystems are read-only; `/etc` uses an overlay that resets on reboot
-> - Files created by scripts aren't tracked by apk—clean them up in `pre-deinstall`
+> - Files created by scripts aren't tracked by apk, clean them up in `pre-deinstall`
 > - `vellum reenable` wraps `post-os-upgrade` with `mount-rw`/`mount-restore` automatically, but other hooks must call these themselves
 
 Use `mount-utils` (a dependency) to handle the read-only filesystem:
@@ -291,18 +291,6 @@ Vellum maintains a separate testing repository for packages that need validation
 vellum testing status   # Check if testing repo is enabled
 vellum testing enable   # Enable testing repository
 vellum testing disable  # Disable testing repository
-```
-
-#### Installing from Testing
-
-With testing enabled, you can install pre-release versions:
-
-```sh
-# Install latest version (includes testing if enabled)
-vellum add mypackage
-
-# Explicitly install from testing
-vellum add mypackage@testing
 ```
 
 ## License
