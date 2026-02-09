@@ -1,10 +1,10 @@
 maintainer="Mitchell Scott <mitchell@scottlabs.io>"
 pkgname=rm-stylus
 pkgver=0.3.0
-pkgrel=0
+pkgrel=1
 _upstream_author="rmitchellscott"
 _category="utilities"
-pkgdesc="Xovi extension that adds support for LAMY button"
+pkgdesc="Xovi extension that exposes stylus button events as a QML type."
 url="https://github.com/rmitchellscott/rm-stylus"
 arch="aarch64 armv7"
 license="MIT"
