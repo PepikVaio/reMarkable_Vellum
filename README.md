@@ -14,7 +14,7 @@ Please refer to the [vellum-cli](https://github.com/vellum-dev/vellum-cli) docum
 
 The reMarkable tablet’s operating system is called Codex, meaning "bound book" in Latin.
 
-Historically, vellum was the fine parchment used for illuminated manuscripts; today, it refers to the smooth, durable paper favored by artists and designers.
+Historically, vellum was the fine parchment used for illuminated manuscripts. Today, it refers to the smooth, durable paper favored by artists and designers.
 
 A fitting name for a package manager on a paper tablet.
 
