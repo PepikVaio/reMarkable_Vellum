@@ -9,9 +9,10 @@ url="https://github.com/PepikVaio/reMarkable_Xovi_Extensions"
 arch="noarch"
 license="CC-BY-NC-ND-4.0"
 depends="qt-resource-rebuilder remarkable-os>=3.24 remarkable-os<3.25"
+_commit="7b8da2ee0d5f8e8e0ad8b98a6cae3ba7f5a603d"
 source="
-https://raw.githubusercontent.com/PepikVaio/reMarkable_Xovi_Extensions/main/xovi_Settings_Main/3.24.0.149/xovi_Settings_Main.qmd
-https://raw.githubusercontent.com/PepikVaio/reMarkable_Xovi_Extensions/main/LICENSE.md
+https://raw.githubusercontent.com/PepikVaio/reMarkable_Xovi_Extensions/$_commit/xovi_Settings_Main/3.24.0.149/xovi_Settings_Main.qmd
+https://raw.githubusercontent.com/PepikVaio/reMarkable_Xovi_Extensions/$_commit/LICENSE.md
 "
 options="!check !fhs"
 
